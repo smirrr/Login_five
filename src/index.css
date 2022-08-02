@@ -48,3 +48,8 @@ body{
 /* .label{
   font-family : 'Karla', sans-serif;
 } */
+.submit:hover {
+  transform: scale(0.98);
+  opacity: 0.9;
+  cursor: pointer;
+}

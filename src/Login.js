@@ -20,6 +20,15 @@ export default function Login(){
         formData.pw === formData.confirmpw? console.log("Successfully signed up") : console.log("pws dont match")
         formData.newsletter && console.log("thanks for newlsteer")
     }
+
+    // function handleMouseOver(event){
+    //     // console.log(event.target)
+    //     event.target.style.width = "160px";
+    // }
+    // function handleMouseOut(event){
+    //     // console.log(event.target)
+    //     event.target.style.width = "150px";
+    // }
     return(
         <div className="maindiv">
             <form onSubmit={handleSubmit} className="mainform">
@@ -54,7 +63,7 @@ export default function Login(){
                 />
               <label className="label" htmlFor="newsletter">Subscribe to Newsletters</label>
               </div>
-                <button className="submit">Submit</button>
+                <button  className="submit">Submit</button>
             </form>
         </div>
         
